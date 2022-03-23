@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "649872538075",
+    "project_id": "orderrt-d6f41",
+    "storage_bucket": "orderrt-d6f41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649872538075:android:3d187c2a06acdac7b88ffe",
+        "android_client_info": {
+          "package_name": "orderrt.mo.ob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649872538075-aq43hbkh2nmg35nk6g8r5ppf9gfu0m52.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orderrt.mo.ob",
+            "certificate_hash": "34606c0fba586e250ce3b86c7514e4b9d88960e3"
+          }
+        },
+        {
+          "client_id": "649872538075-ptinfbbgpluilab2ink40nrn6qsv3rkv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orderrt.mo.ob",
+            "certificate_hash": "99e3b2d25b00798f1ad9885ae282f736f34ebbd3"
+          }
+        },
+        {
+          "client_id": "649872538075-qq2tivadd23de4rbde133oo38vp21qia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orderrt.mo.ob",
+            "certificate_hash": "f051f1a18a3e02954d44f64dc9c9336e50a51a16"
+          }
+        },
+        {
+          "client_id": "649872538075-i99voip3ttqlrbiisrrn2vqfeje8sl93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGuxzpKt-ZZgq-5kbh2S8oFl_--jlprLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649872538075-i99voip3ttqlrbiisrrn2vqfeje8sl93.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "649872538075-lhn94ko0h020fklq3bshfahqcsod2cv3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "orderrt.mo.oba"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
