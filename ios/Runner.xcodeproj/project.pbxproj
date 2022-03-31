@@ -79,7 +79,6 @@
 				97C146F01CF9000F007C117D /* Runner */,
 				97C146EF1CF9000F007C117D /* Products */,
 				ED83F418C548D5FD52295D02 /* Pods */,
-				D8E2E22E7DCC308F81E7CD6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,13 +103,6 @@
 				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
 			);
 			path = Runner;
-			sourceTree = "<group>";
-		};
-		D8E2E22E7DCC308F81E7CD6E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		ED83F418C548D5FD52295D02 /* Pods */ = {
@@ -210,7 +202,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin\n";
 		};
 		4A923C47062E0E9CC0996CE0 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -385,6 +377,11 @@
 				"OTHER_CFLAGS[arch=*]" = "-fembed-bitcode";
 				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode";
 				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "-fembed-bitcode";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					flutter,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = orderrt.mo.oba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -522,6 +519,11 @@
 				"OTHER_CFLAGS[arch=*]" = "-fembed-bitcode";
 				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode";
 				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)z";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					flutter,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = orderrt.mo.oba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -550,6 +552,11 @@
 				"OTHER_CFLAGS[arch=*]" = "-fembed-bitcode";
 				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode";
 				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "-fembed-bitcode";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					flutter,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = orderrt.mo.oba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
