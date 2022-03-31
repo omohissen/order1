@@ -13,11 +13,12 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		AF58B39E27F5E46400A3A927 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6908BEA1E507F22F2D48CF03 /* Pods_Runner.framework */; };
+		AF58B39F27F5E46400A3A927 /* Pods_Runner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6908BEA1E507F22F2D48CF03 /* Pods_Runner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AFC2F1DD27F176F4004928EB /* Pods-Runner.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 98B01DE9012315DDF7D7ADA9 /* Pods-Runner.debug.xcconfig */; };
 		AFC2F1DE27F176F8004928EB /* Pods-Runner.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6E51708F7D3AAB2951F0432A /* Pods-Runner.release.xcconfig */; };
 		AFC2F1DF27F176FC004928EB /* Pods-Runner.profile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D9407F3DE03A494E919FE30E /* Pods-Runner.profile.xcconfig */; };
 		E2347EEC27C718C5002EA440 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2347EEB27C718C5002EA440 /* GoogleService-Info.plist */; };
-		E53AE9084A8C15E846F5E994 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6908BEA1E507F22F2D48CF03 /* Pods_Runner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				AF58B39F27F5E46400A3A927 /* Pods_Runner.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E53AE9084A8C15E846F5E994 /* Pods_Runner.framework in Frameworks */,
+				AF58B39E27F5E46400A3A927 /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
